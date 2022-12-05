@@ -14,3 +14,17 @@ string[] myArray = { "Russia", "Denmark", "Kazan" };
 printArray(myArray);
 createArray(myArray);
 Console.WriteLine();
+
+void printArray(string[] myArray)
+{
+    Console.WriteLine($" \n Created array: ");
+    Console.Write("[");
+    for (int i = 0; i < myArray.Length; i++)
+    {
+        Console.Write($" {myArray[i],1},");
+    }
+    Console.Write("] \n");
+    Console.WriteLine();
+    }
+
+    
