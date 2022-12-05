@@ -12,3 +12,5 @@
 
 string[] myArray = { "Russia", "Denmark", "Kazan" };
 printArray(myArray);
+createArray(myArray);
+Console.WriteLine();
