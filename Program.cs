@@ -27,4 +27,21 @@ void printArray(string[] myArray)
     Console.WriteLine();
     }
 
-    
+  void createArray(string[] myArray)
+{
+    string[] newArray = new string[myArray.Length];
+    Console.WriteLine("Array in which the length of strings is less than or equal to 3 characters:");
+    Console.Write("[");
+    for (int i = 0; i < myArray.Length; i++)
+    {
+        if (myArray[i].Length <= 3)
+        {
+            newArray[i] = myArray[i];
+            Console.Write($" {myArray[i]},");
+            
+        }
+    }
+    Console.Write("]");
+}
+
+Console.WriteLine();  
