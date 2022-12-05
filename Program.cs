@@ -11,3 +11,4 @@
 */
 
 string[] myArray = { "Russia", "Denmark", "Kazan" };
+printArray(myArray);
