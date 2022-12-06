@@ -12,7 +12,7 @@
 
 string[] myArray = { "Russia", "Denmark", "Kazan" };
 printArray(myArray);
-createArray(myArray);
+createdArray(myArray);
 Console.WriteLine();
 
 void printArray(string[] myArray)
@@ -27,7 +27,7 @@ void printArray(string[] myArray)
     Console.WriteLine();
     }
 
-  void createArray(string[] myArray)
+  void createdArray(string[] myArray)
 {
     string[] newArray = new string[myArray.Length];
     Console.WriteLine("Array in which the length of strings is less than or equal to 3 characters:");
